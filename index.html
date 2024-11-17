@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyly</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="shortcut icon" href="cloud-regular-24.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="mian.js"></script>
+</head>
+
+<body>
+    <section id="up">
+        <section id="logo">
+            <h1>SKYLI</h1>
+        </section>
+        <section id="search">
+            <button type="button" id="searchBtn"><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>
+            <input type="text" placeholder="Szukaj" id="search-city">
+        </section>
+    </section>
+
+    <section id="container">
+        <section id="navbar">
+            <section class="butt" id="main-navbar">
+                <i class="fa-solid fa-wind fa-2xl"></i>
+            </section>
+            <section class="butt" id="pogoda">
+                <i class="fa-solid fa-smog"></i>
+                <p>Pogoda</p>
+            </section>
+            <section class="butt" id="cities">
+                <i class="fa-solid fa-city"></i>
+                <p>Miasta</p>
+            </section>
+            <section class="butt" id="maps">
+                <i class="fa-solid fa-map"></i>
+                <p>Mapa</p>
+            </section>
+                <section class="butt" id="settings">
+                <i class="fa-solid fa-bars"></i>
+                <p>Ustawienia</p>
+            </section>
+
+        </section>
+        <section id="main">
+
+            <section id="up-bar">
+                <section id="city"></section>
+                <section id="weather-icon"><img src="" alt=""></section>
+                <section id="temp-up"></section>
+            </section>
+            <section id="bottom-bar">
+                <section class="bottom-element" id="temp-bottom">
+                    <section id="day-bottom">
+                        <span style="color: white;"><i class="fa-solid fa-sun"></i></span>Dzień
+                        <p class="data-days" id="tempDay"></p>
+                    </section>
+                    <section id="night">
+                        <span style="color: white;"><i class="fa-solid fa-moon"></i></span>Noc
+                        <p class="data-days" id="tempNight"></p>
+
+                    </section>
+                </section>
+                <section class="bottom-element" id="wind">
+                    <span style="color: white;"><i class="fa-solid fa-wind"></i></span>
+                    <p>Wiatr</p>
+                    <p class="data" id="windSpeed"></p>
+                </section>
+                <section class="bottom-element" id="humidityBlock">
+                    <span style="color: white;"><i class="fa-solid fa-droplet"></i></span>
+                    <p>Wilgotność</p>
+                    <p class="data" id="humidity"></p>
+                </section>
+                <section class="bottom-element" id="tempOdcz">
+                    <span style="color: white;"><i class="fa-solid fa-temperature-three-quarters"></i></span>
+                    <p>Temp.odczuwalna</p>
+                    <p class="data" id="tempOd"></p>
+                </section>
+            </section>
+        </section>
+    </section>
+</body>
+</html>
