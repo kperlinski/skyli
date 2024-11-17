@@ -2,58 +2,58 @@
 
 # 🌤 Skyly - Weather Forecast Website
 
-### Opis projektu
-**Skyly** to aplikacja internetowa, która dostarcza bieżące informacje o aktualnych warunkach pogodowych na podstawie nazwy miasta podanej przez użytkownika. Jest to proste i szybkie narzędzie do sprawdzenia pogody w dowolnym miejscu.
+### Project Description
+**Skyly** is a web application that provides real-time weather information based on the city name entered by the user. It is a simple and quick tool to check the weather in any location.
 
 ---
 
-### Funkcjonalności
-- **Aktualna pogoda**: Informacje na temat bieżących warunków pogodowych, takich jak temperatura, wilgotność, prędkość wiatru, ciśnienie atmosferyczne i inne szczegóły.
-- **Wyszukiwanie po nazwie miasta**: Użytkownik może ręcznie wpisać nazwę miasta, aby sprawdzić aktualne warunki pogodowe.
+### Features
+- **Current weather**: Information about the current weather conditions, such as temperature, humidity, wind speed, air pressure, and other details.
+- **Search by city name**: Users can manually enter the name of a city to check its current weather conditions.
 
 ---
 
-### Wymagania
-- System obsługujący Git (do eksportowania repozytorium na lokalny komputer).
-- Dostęp do API pogody (np. [OpenWeatherMap](https://openweathermap.org/api)) z kluczem API.
+### Requirements
+- A system that supports Git (for exporting the repository to your local machine).
+- Access to a weather API (e.g., [OpenWeatherMap](https://openweathermap.org/api)) with an API key.
 
 ---
 
-### Instalacja
+### Installation
 
-1. **Eksportowanie repozytorium na lokalny komputer**
-   - Skorzystaj z poniższego polecenia, aby sklonować repozytorium:
+1. **Export the repository to your local machine**
+   - Use the following command to clone the repository:
      ```bash
-     git clone https://github.com/nazwa-uzytkownika/skyly.git
+     git clone https://github.com/kperlinski/skyly.git
      cd skyly
      ```
 
-2. **Uruchomienie aplikacji**
-   - Otwórz plik `index.html` w przeglądarce internetowej.
+2. **Run the application**
+   - Open the `index.html` file in your web browser.
 
-Aplikacja będzie działać lokalnie i umożliwi przeglądanie aktualnych warunków pogodowych.
+The application will run locally and allow you to view the current weather conditions.
 
 ---
 
-### Technologie
+### Technologies
 - **Frontend**: HTML, CSS, JavaScript
-- **API**: OpenWeatherMap lub inne wybrane API pogodowe
+- **API**: OpenWeatherMap or other selected weather API
 
 ---
 
-### Przykłady funkcji
+### Example Functions
 
 - **`search()`**
-  - Funkcja umożliwiająca użytkownikowi wprowadzenie nazwy miejscowości, dla której chcemy uzyskać dane pogodowe.
+  - A function that allows the user to enter the name of a city for which they want to retrieve weather data.
 
 - **`checkWeather()`**
-  - Funkcja odpowiedzialna za pobranie i wyświetlenie aktualnych danych pogodowych dla wprowadzonego miasta.
+  - A function responsible for retrieving and displaying the current weather data for the entered city.
 
 ---
 
-### Plan rozwoju
-- Dodanie możliwości sprawdzania prognozy pogody na kolejne dni.
-- Wprowadzenie funkcji wyszukiwania pogody na podstawie lokalizacji użytkownika.
-- Opcja zapisania kilku ulubionych miast użytkownika.
-- Dodania mapy.
-- Umożliwienie innych przydatnych ustawień.
+### Development Plan
+- Add the ability to check the weather forecast for upcoming days.
+- Implement the feature to search weather based on the user's location.
+- Allow users to save multiple favorite cities.
+- Add a map.
+- Enable other useful settings.
