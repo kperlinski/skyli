@@ -12,7 +12,7 @@ async function checkWeather(city) {
     var data = await response.json();
 
     console.log(data);
-    
+
     const image = document.querySelector("#up-bar img");
     document.querySelector('#city').innerHTML = NameC;
     document.querySelector('#temp-up').innerHTML = Math.round(data.main.temp) + "°C";
@@ -22,4 +22,28 @@ async function checkWeather(city) {
     document.querySelector('#city').innerHTML = data.name;
     document.querySelector('#windSpeed').innerHTML = data.wind.speed + "km/h";
     document.querySelector('#humidity').innerHTML = data.main.humidity + "%";
+
+    switch(data.weather[0].main) {
+        case 'Clear':
+                image.src = 'image/sunny (1).png';
+                break;
+            case 'Rain':
+                image.src = 'image/rain.png';
+                break;
+            case 'Snow':
+                image.src = 'image/snow.png';
+                break;
+            case 'Clouds':
+                image.src = 'image/clouds.png';
+                break;
+            case 'Mist':
+                image.src = 'image/mist.png';
+                break;
+            case 'Haze':
+                image.src = 'image/mist.png';
+                break;
+            default:
+                image.src = 'image/sunny.png';
+        
+    }
 }
