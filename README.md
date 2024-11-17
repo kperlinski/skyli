@@ -45,22 +45,9 @@ Aplikacja będzie działać lokalnie i umożliwi przeglądanie aktualnych warunk
 
 - **`search()`**
   - Funkcja umożliwiająca użytkownikowi wprowadzenie nazwy miejscowości, dla której chcemy uzyskać dane pogodowe.
-  - Przykład użycia:
-    ```javascript
-    search('Warsaw'); // Ustawia miasto do wyszukiwania pogody
-    ```
 
 - **`checkWeather()`**
   - Funkcja odpowiedzialna za pobranie i wyświetlenie aktualnych danych pogodowych dla wprowadzonego miasta.
-  - Przykład użycia:
-    ```javascript
-    checkWeather(); // Pobiera dane pogodowe dla miasta ustawionego w search()
-    ```
-
----
-
-### Zrzuty ekranu
-<!-- Tutaj można dodać zrzuty ekranu z interfejsu strony, jeśli są dostępne -->
 
 ---
 
@@ -68,13 +55,5 @@ Aplikacja będzie działać lokalnie i umożliwi przeglądanie aktualnych warunk
 - Dodanie możliwości sprawdzania prognozy pogody na kolejne dni.
 - Wprowadzenie funkcji wyszukiwania pogody na podstawie lokalizacji użytkownika.
 - Opcja zapisania kilku ulubionych miast użytkownika.
-
----
-
-### Wkład
-Chętnie przyjmujemy wkład w rozwój tego projektu! Jeśli masz pomysł na ulepszenie **Skyly**, możesz zgłosić problem lub stworzyć "pull request" z własnymi zmianami.
-
----
-
-### Licencja
-Ten projekt jest dostępny na licencji MIT. Szczegóły znajdują się w pliku `LICENSE`.
+- Dodania mapy.
+- Umożliwienie innych przydatnych ustawień.
